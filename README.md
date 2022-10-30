@@ -70,15 +70,27 @@ This is an example of how to list things you need to use the software and how to
 
 ### Start
 
-1. Run the *app.py* in *ds_cw2_server1*, *ds_cw2_server2*, *ds_cw2_server3*
+1. Set up your mysql config in *config.py* and secret.py
 
-2. ```bash
+   ```ruby
+   |-- ds_cw2_server1
+       |-- config.py
+       |-- secret.py
+   ```
+
+2. Run *reset.py* to initialize mysql database 
+
+   ```bash
+   python reset.py
+   ```
+
+3. Run *app.py* in *ds_cw2_server1*, *ds_cw2_server2*, *ds_cw2_server3*
+
+   ```bash
    python app.py
    ```
 
-   
-
-3. Access the service by enter the http://127.0.0.1:5000/quotes into browser.
+4. Access the service by enter the http://127.0.0.1:5000/quotes into browser.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
