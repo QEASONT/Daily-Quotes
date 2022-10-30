@@ -39,15 +39,15 @@
 
 ## About The Project
 
-![截屏2022-10-3012.34.53](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-30 12.34.53-20221030131216666.png)
+![截屏2022-10-3012.34.53](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-3012.34.53.png)
 
 After starting the three restful servers, user can access the Daily Quotes through http://127.0.0.1:5000/quotes
 
-![截屏2022-10-3012.35.05](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-30 12.35.05.png)
+![截屏2022-10-3012.35.05](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-3012.35.05.png)
 
 User can choose one of the author to view all the books of him in the database. Of course the resources are from other web service.
 
-![截屏2022-10-3012.35.10](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-30 12.35.10.png)
+![截屏2022-10-3012.35.10](https://qeasont.oss-cn-beijing.aliyuncs.com/uPic/截屏2022-10-3012.35.10.png)
 
 After choosing a book, services will return the librarys' information which contain this book.
 
