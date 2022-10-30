@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container px-md-2 px-lg-2"><br><br>
+    <div class="row justify-content-center mt-0">
+        <div class="col-sm-12 col-md-8 col-lg-10 items mt-0">
+            <blockquote class="blockquote text-center">
+
+                <h3 class="mb-2  nowhover t-font">《{{book.name}}》</h3>
+
+            </blockquote>
+            {%for library in librarys%}
+            <blockquote class="blockquote">
+                <div class="todo-card text-center">
+                    <p class="mb-2  nowhover t-font">Library ID: {{library.id}} |
+                        Library Name: {{library.name}}</p>
+
+                </div>
+            </blockquote>
+
+            {%endfor%}
+        </div>
+    </div>
+</div>
+<br>
+{% endblock %}
+{% block footer %}
+<footer>
+    <div class="container border-bottom">
+        <div class="row">
+
+
+            <div class="col-md-12">
+                <div class="py-4 d-flex justify-content-center align-items-center">
+                    ©2022 <a class="white-text" href="https://github.com/QEASONT" target="_blank">Qian Tang and Liu
+                        Shijing</a>. All
+                    rights
+                    reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
